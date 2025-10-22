@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 500px;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+input[type="file"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.search-box {
+  text-align: center;
+}
+
+.search-box input[type="text"] {
+  width: 60%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
