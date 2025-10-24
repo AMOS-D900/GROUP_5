@@ -123,7 +123,7 @@ university_admission/
 | Github name            | Task                     |Description
 |------------------------|--------------------------|-----------------------------------------------------
 | AMOS-D900              | oversees whole project   | Assigns tasks to members.               
-|                        | Backend Development      | Handled PHP logic/database connection.  
+| Davidihenacho44        | Backend Development      | Handled PHP logic/database connection.  
 | joshualala             | Database Design          | Created MySQL tables and managed database structure.             
 | Daisyemmanuella        | Frontend Design          | Designed HTML/CSS layout for forms and tables.       
 | Ebiweni-10             | Validation & Testing     | Implemented input validation and tested all modules.
